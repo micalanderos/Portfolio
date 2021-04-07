@@ -1,0 +1,115 @@
+
+
+
+h1{font-size:36px} 
+h2{font-size:30px} 
+h3{font-size:24px} 
+h4{font-size:20px} 
+h5{font-size:18px} 
+h6{font-size:16px}
+
+html, body, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+.w3-night {
+    color:#FCF7E6 !important;
+    background-color:#121212 !important;
+}
+.w3-smoke {
+    color:#121212 !important;
+    background-color:#FCF7E6 !important;
+}
+
+img {
+    width: 80%;
+    max-width: 600px;
+    min-width: 450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'EB Garamond', serif;
+    width: 150px;
+    height: 29px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
+.btnwine {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btnwine.svg");
+    background-size: 150px;
+}
+.btnwine:hover {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btnpink.svg");
+    background-size: 150px;
+}
+.btnwine:active {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btnpink.svg");
+    background-size: 150px;
+}
+.btnwine .btn {
+    border-color: #57293B;
+    color: #121212;
+    background-color: #FCF7E6;
+}
+.btnwine .btn:hover {
+    border-color: #8B415F;
+    color: #121212;
+    background-color: #FCF7E6;
+}
+.btnwine .btn:active {
+    border-color: #351421;
+    color: #FCF7E6;
+    background-color: #57293B;
+}
+.btnolive {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btnolive.svg");
+    background-size: 150px;
+}
+.btnolive:hover {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btngreen.svg");
+    background-size: 150px;
+}
+.btnolive:active {
+    height: 111px;
+    width: 150px;
+    background-image: url("../images/btngreen.svg");
+    background-size: 150px;
+}
+.btnolive .btn {
+    border-color: #4A4B00;
+    color: #121212;
+    background-color: #FCF7E6;
+}
+.btnolive .btn:hover {
+    border-color: #4A4B00;
+    color: #121212;
+    background-color: #FCF7E6;
+}
+.btnolive .btn:active {
+    border-color: #2D2D06;
+    color: #FCF7E6;
+    background-color: #4A4B00;
+}
+
+
+
